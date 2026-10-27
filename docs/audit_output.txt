@@ -1,0 +1,19 @@
+Columns: ['participant_id', 'Gender', 'Age', 'Group', 'MMSE']
+Rows: 88
+Group
+A    36
+C    29
+F    23
+Name: count, dtype: int64
+        Age                               MMSE                             
+      count       mean       std min max count       mean       std min max
+Group                                                                      
+A        36  66.388889  7.889515  49  79    36  17.750000  4.500000   4  23
+C        29  67.896552  5.400693  57  78    29  30.000000  0.000000  30  30
+F        23  63.652174  8.221970  44  78    23  22.173913  2.639769  18  27
+Participants with no .set file: []
+File: sub-001_task-eyesclosed_eeg.set
+Channels: ['Fp1', 'Fp2', 'F3', 'F4', 'C3', 'C4', 'P3', 'P4', 'O1', 'O2', 'F7', 'F8', 'T3', 'T4', 'T5', 'T6', 'Fz', 'Cz', 'Pz']
+Sampling rate: 500.0 Hz
+Duration (s): 599.8
+Missing 10-20 channels: []
