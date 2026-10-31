@@ -1,0 +1,13 @@
+eeg_full19 0.703
+eeg_full19_plus_mmse 0.94
+eeg_frontal4 0.695
+eeg_frontal4_plus_mmse 0.987
+eeg_fronto_temporal4 0.732
+eeg_fronto_temporal4_plus_mmse 0.982
+eeg_prefrontal2 0.682
+eeg_prefrontal2_plus_mmse 0.992
+eeg_occipital2 0.695
+eeg_occipital2_plus_mmse 0.999
+mmse_only 1.0
+age_sex_only 0.531
+Wrote results/metrics.json

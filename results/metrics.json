@@ -1,0 +1,170 @@
+{
+  "created_utc": "2026-10-31T07:37:24+00:00",
+  "python": "3.14.2",
+  "sklearn": "1.9.1",
+  "seed": 42,
+  "cohort": {
+    "n_total": 37,
+    "n_AD": 21,
+    "n_CN": 16,
+    "n_excluded_for_data_quality": 28
+  },
+  "models": {
+    "dummy_prior": {
+      "auroc_of_mean_score": 0.2976190476190476
+    },
+    "eeg_full19": {
+      "auroc_mean_over_repeats": 0.7032738095238097,
+      "auroc_sd_over_repeats": 0.0328744454959573,
+      "auroc_of_mean_score": 0.738095238095238,
+      "auroc_95ci_participant_bootstrap": [
+        0.5613908569500674,
+        0.8913043478260869
+      ],
+      "sensitivity": 0.7142857142857143,
+      "specificity": 0.75,
+      "balanced_accuracy": 0.7321428571428572
+    },
+    "eeg_full19_plus_mmse": {
+      "auroc_mean_over_repeats": 0.9404761904761905,
+      "auroc_sd_over_repeats": 0.021910907522983306,
+      "auroc_of_mean_score": 0.9583333333333333,
+      "auroc_95ci_participant_bootstrap": [
+        0.8848254870129871,
+        1.0
+      ],
+      "sensitivity": 0.9047619047619048,
+      "specificity": 0.9375,
+      "balanced_accuracy": 0.9211309523809523
+    },
+    "eeg_frontal4": {
+      "auroc_mean_over_repeats": 0.694940476190476,
+      "auroc_sd_over_repeats": 0.037368675948939785,
+      "auroc_of_mean_score": 0.7321428571428571,
+      "auroc_95ci_participant_bootstrap": [
+        0.5465221958348557,
+        0.8853108875128998
+      ],
+      "sensitivity": 0.6190476190476191,
+      "specificity": 0.6875,
+      "balanced_accuracy": 0.6532738095238095
+    },
+    "eeg_frontal4_plus_mmse": {
+      "auroc_mean_over_repeats": 0.9866071428571429,
+      "auroc_sd_over_repeats": 0.008753238791579021,
+      "auroc_of_mean_score": 0.9940476190476191,
+      "auroc_95ci_participant_bootstrap": [
+        0.9727272727272728,
+        1.0
+      ],
+      "sensitivity": 1.0,
+      "specificity": 0.9375,
+      "balanced_accuracy": 0.96875
+    },
+    "eeg_fronto_temporal4": {
+      "auroc_mean_over_repeats": 0.7315476190476191,
+      "auroc_sd_over_repeats": 0.054534985338315994,
+      "auroc_of_mean_score": 0.7410714285714286,
+      "auroc_95ci_participant_bootstrap": [
+        0.569665854978355,
+        0.8900227272727271
+      ],
+      "sensitivity": 0.6666666666666666,
+      "specificity": 0.6875,
+      "balanced_accuracy": 0.6770833333333333
+    },
+    "eeg_fronto_temporal4_plus_mmse": {
+      "auroc_mean_over_repeats": 0.9824404761904763,
+      "auroc_sd_over_repeats": 0.01392462805391619,
+      "auroc_of_mean_score": 0.9940476190476191,
+      "auroc_95ci_participant_bootstrap": [
+        0.9732021103896104,
+        1.0
+      ],
+      "sensitivity": 1.0,
+      "specificity": 0.9375,
+      "balanced_accuracy": 0.96875
+    },
+    "eeg_prefrontal2": {
+      "auroc_mean_over_repeats": 0.6821428571428572,
+      "auroc_sd_over_repeats": 0.03086640991062899,
+      "auroc_of_mean_score": 0.6994047619047619,
+      "auroc_95ci_participant_bootstrap": [
+        0.5117035074899524,
+        0.8676470588235294
+      ],
+      "sensitivity": 0.6190476190476191,
+      "specificity": 0.6875,
+      "balanced_accuracy": 0.6532738095238095
+    },
+    "eeg_prefrontal2_plus_mmse": {
+      "auroc_mean_over_repeats": 0.9916666666666668,
+      "auroc_sd_over_repeats": 0.00829070730784769,
+      "auroc_of_mean_score": 1.0,
+      "auroc_95ci_participant_bootstrap": [
+        1.0,
+        1.0
+      ],
+      "sensitivity": 1.0,
+      "specificity": 0.9375,
+      "balanced_accuracy": 0.96875
+    },
+    "eeg_occipital2": {
+      "auroc_mean_over_repeats": 0.6952380952380952,
+      "auroc_sd_over_repeats": 0.0364312946383318,
+      "auroc_of_mean_score": 0.7410714285714286,
+      "auroc_95ci_participant_bootstrap": [
+        0.5613684210526315,
+        0.8898809523809523
+      ],
+      "sensitivity": 0.6666666666666666,
+      "specificity": 0.625,
+      "balanced_accuracy": 0.6458333333333333
+    },
+    "eeg_occipital2_plus_mmse": {
+      "auroc_mean_over_repeats": 0.9985119047619048,
+      "auroc_sd_over_repeats": 0.0027439120408609685,
+      "auroc_of_mean_score": 1.0,
+      "auroc_95ci_participant_bootstrap": [
+        0.9999999999999999,
+        1.0
+      ],
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    "mmse_only": {
+      "auroc_mean_over_repeats": 1.0,
+      "auroc_sd_over_repeats": 0.0,
+      "auroc_of_mean_score": 1.0,
+      "auroc_95ci_participant_bootstrap": [
+        1.0,
+        1.0
+      ],
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    "age_sex_only": {
+      "auroc_mean_over_repeats": 0.5308035714285715,
+      "auroc_sd_over_repeats": 0.06074655567487382,
+      "auroc_of_mean_score": 0.550595238095238,
+      "auroc_95ci_participant_bootstrap": [
+        0.34795321637426907,
+        0.7424533799533798
+      ],
+      "sensitivity": 0.47619047619047616,
+      "specificity": 0.5,
+      "balanced_accuracy": 0.4880952380952381
+    }
+  },
+  "differences": {
+    "frontal4_minus_full19_auroc": {
+      "estimate": -0.005952380952380931,
+      "ci95": [
+        -0.16771190297708297,
+        0.14584247076023402
+      ]
+    }
+  }
+}
